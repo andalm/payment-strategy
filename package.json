@@ -1,0 +1,26 @@
+{
+  "name": "payment-strategy",
+  "version": "1.0.0",
+  "description": "Abstract class for implement new strategies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andalm/payment-strategy.git"
+  },
+  "keywords": [
+    "payment",
+    "strategy",
+    "payments",
+    "strategies",
+    "gateway"
+  ],
+  "author": "Andrés Aldana <andres.aldana.martinez@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andalm/payment-strategy/issues"
+  },
+  "homepage": "https://github.com/andalm/payment-strategy#readme"
+}
