@@ -1,6 +1,6 @@
 {
   "name": "payment-strategy",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Abstract class for implement new strategies",
   "main": "index.js",
   "scripts": {
