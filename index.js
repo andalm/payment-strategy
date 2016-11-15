@@ -2,26 +2,26 @@
 
 module.exports = class PaymentStrategy {
   registerCreditCard() {
-    throw Error('registerCreditCard isn\'t implement yet.');
+    throw Error('registerCreditCard method isn\'t implement yet.');
   }
 
   deleteCreditCard() {
-    throw Error('deleteCreditCard isn\'t implement yet.');
+    throw Error('deleteCreditCard method isn\'t implement yet.');
   }
 
   verifyCreditCard() {
-    throw Error('deleteCreditCard isn\'t implement yet.');
+    throw Error('verifyCreditCard method isn\'t implement yet.');
   }
 
   pay() {
-    throw Error('deleteCreditCard isn\'t implement yet.');
+    throw Error('pay method isn\'t implement yet.');
   }
 
   refund() {
-    throw Error('deleteCreditCard isn\'t implement yet.');
+    throw Error('refund method isn\'t implement yet.');
   }
 
   query() {
-    throw Error('deleteCreditCard isn\'t implement yet.');
+    throw Error('query method isn\'t implement yet.');
   }
 };
