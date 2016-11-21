@@ -1,6 +1,10 @@
 'use strict';
 
 module.exports = class PaymentStrategy {
+  constructor(name) {
+    this.name = name;
+  }
+
   registerCreditCard() {
     throw Error('registerCreditCard method isn\'t implement yet.');
   }
