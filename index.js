@@ -2,6 +2,10 @@
 
 module.exports = class PaymentStrategy {
   constructor(name) {
+    if (!name || typeof name != 'string') {
+      throw Error('name parameter is required or must be a string.');
+    }
+
     this.name = name;
   }
 
